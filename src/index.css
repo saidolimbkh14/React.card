@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+
+.parent {
+  width: 100%;
+  height: max-content;
+  padding: 60px 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.oka {
+  width: 100%;
+  text-align: center;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(47, 53, 58, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(47, 53, 58, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(47, 53, 58, 0.2);
+  box-shadow: 4px 4px 8px 0;
+  padding: 10px ;
+  border-radius: 15px;
+}
+
+.oka img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.h3 a {
+  color: #0c0a0a;
+  padding: 20px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  background-color: #888787;
+  color: aliceblue;
+}
+
+
+.h3{
+  display: flex;
+  gap: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+
+.parent p, b, h3{
+  color: #0c0a0a;
+}
+
+.parent p{
+  color: #a19999;
+}
+
+
+
+.footer{
+  background: rgb(24, 23, 23);
+  color: #fff;
+  display: flex;
+  gap: 25px;
+  padding: 70px 200px;
+}
+
+.ichi{
+  width: 350px;
+}
+
+.f1{
+  width: 100px;
+}
+
+.f3 img{
+  width: 40px;
+  
+}
+
+
+.keng{
+  color: #a19999;
+}
+
+.yaxshi{
+  color: #a19999;
+}
+
+.rasm{
+ gap: 30px;
+}
+
+.fchyu{
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  border-radius: 15px;
+  border: #0c0a0a;
+}
+
+ button{
+  border: #0c0a0a;
+  border-radius: 101px;
+  background-color: green;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+}
